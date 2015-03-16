@@ -1,0 +1,28 @@
+.bar .title{
+	text-align:left;
+}
+.item-thumbnail-left, .item-thumbnail-left .item-content{
+	min-height: 60px;
+    padding-left: 58px;
+    padding-top: 8px;
+}
+.item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image{
+	max-height: 40px;
+    max-width: 40px;
+}
+.item-time{
+	position: fiexd;
+	right:0px;
+    color: #666;
+    font-size: 12px;
+}
+
+.item-thumbnail-left .row {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+.item-thumbnail-left .col{
+	padding: 0px;
+}
