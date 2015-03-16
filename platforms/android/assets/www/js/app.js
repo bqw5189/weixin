@@ -5,7 +5,11 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var weixin=angular.module('weixin', ['ionic', 'app.services', 'home.controllers', 'weixin.controllers']);
+var weixin=angular.module('weixin', ['ionic', 'app.services', 
+                                     'home.controllers', 
+                                     'weixin.controllers',
+                                     'address.controllers',
+                                     'discover.controllers']);
 
 weixin.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
