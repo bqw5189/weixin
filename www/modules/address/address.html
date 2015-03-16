@@ -1,32 +1,35 @@
 <ion-view view-title="微信">
-	 <ion-header-bar align-title="left" class="bar-dark">
-	  <h1 class="title">微信</h1>
-	  <div class="buttons">
-	    <a class="button button-icon icon ion-android-search"></a>
-	    <a class="button button-icon icon ion-android-add"></a>
-	  </div>
-	</ion-header-bar>
   <ion-content class=" has-header">
     <ion-list>
-    <ion-item class="item-divider" >公众号</ion-item>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items">
-	    <img ng-src="{{item.img}}">
-	    <div class="row">
-		  <div class="col col-75"><h2>{{item.title}} </h2></div>
-		  <div class="col"><span class="item-time">{{item.lastTime}}</span></div>
-		</div>
-		<p>{{item.lastMessage}}</p>
-	  </ion-item>
-	  
-    <ion-item class="item-divider" >企业号</ion-item>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items">
-	    <img ng-src="{{item.img}}">
-	    <div class="row">
-		  <div class="col col-75"><h2>{{item.title}} </h2></div>
-		  <div class="col"><span class="item-time">{{item.lastTime}}</span></div>
-		</div>
-		<p>{{item.lastMessage}}</p>
-	  </ion-item>
+	   <ion-item class="item-button-left" >
+	    <button class="button button-clear" style="background-image:url('modules/address/img/a_1.png');background-size: 32px 32px;"></button>
+		    新的朋友
+	   </ion-item>
+	   <ion-item class="item-button-left" >
+	    <button class="button button-clear" style="background-image:url('modules/address/img/a_9.png');background-size: 32px 32px;"></button>
+		    群聊
+	   </ion-item>
+	   <ion-item class="item-button-left" >
+	    <button class="button button-clear" style="background-image:url('modules/address/img/a_c.png');background-size: 32px 32px;"></button>
+		    标签
+	   </ion-item>
+	   <ion-item class="item-button-left" >
+	    <button class="button button-clear" style="background-image:url('modules/address/img/a_7.png');background-size: 32px 32px;"></button>
+		    公众号
+	   </ion-item>
+	   
+	   <ion-item class="item-divider" >企业号</ion-item>
+		<ion-item class="item-thumbnail-left"  ng-repeat="item in items">
+		   <img ng-src="{{item.img}}" >
+		   <h2 style="padding-top:10px">{{item.title}} </h2>
+		</ion-item>
+		
+    	<ion-item class="item-divider" >公众号</ion-item>
+		<ion-item class="item-thumbnail-left"  ng-repeat="item in items">
+		   <img ng-src="{{item.img}}" >
+		   <h2 style="padding-top:10px">{{item.title}} </h2>
+		</ion-item>
+		
 	</ion-list>
   </ion-content>
 </ion-view>
