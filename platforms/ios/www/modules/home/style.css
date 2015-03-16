@@ -1,0 +1,5 @@
+/* Empty. Add your own CSS if you like */
+.tabs-color-dark .tab-item.tab-item-active, .tabs-color-dark .tab-item.active, .tabs-color-dark .tab-item.activated{
+	    border: 0 solid #33cd5f;
+    color: #33cd5f;
+}
