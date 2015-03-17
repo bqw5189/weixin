@@ -17,10 +17,10 @@
   https://twitter.com/benjsperry  https://twitter.com/ionicframework
   MIT License: https://github.com/driftyco/ionicons
 
-  Android-style icons originally built by Google’s
+  Android-style icons originally built by Google���s
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
-  Modified icons to fit ionicon’s grid from original.
+  Modified icons to fit ionicon���s grid from original.
 */
 @font-face {
   font-family: "Ionicons";
@@ -4923,7 +4923,7 @@ a.item-content {
 .item-button-left {
   padding-left: 72px; }
 
-.item-button-left > .button, .item-button-left .item-content > .button {
+.item-button-left > .button:first-child, .item-button-left .item-content > .button:first-child {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
