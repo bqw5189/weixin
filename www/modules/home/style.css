@@ -3,3 +3,12 @@
 	    border: 0 solid #33cd5f;
     color: #33cd5f;
 }
+
+.popover,.popover .item,.popover .item-complex .item-content, .popover .item-radio .item-content{
+	background-color: #444;
+  color: #fff;
+}
+
+.popover .item{
+	border-top: 0 none;
+}
