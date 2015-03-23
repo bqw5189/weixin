@@ -10,6 +10,7 @@ var weixin=angular.module('weixin', ['ionic', 'app.services',
                                      'weixin.controllers',
                                      'address.controllers',
                                      'discover.controllers',
+                                     'search.controllers',
                                      'my.controllers']);
 
 weixin.run(function($ionicPlatform) {

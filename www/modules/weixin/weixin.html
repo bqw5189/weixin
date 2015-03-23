@@ -1,7 +1,7 @@
 <ion-view view-title="微信">
   <ion-content class=" has-header">
     <ion-list>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items">
+	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items" ng-href="{{item.href}}">
 	    <img ng-src="{{item.img}}">
 	    <div class="row">
 		  <div class="col col-75"><h2>{{item.title}} </h2></div>
