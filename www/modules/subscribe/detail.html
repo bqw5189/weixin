@@ -6,16 +6,30 @@
 	  </div>
 	  <h1 class="title title-left">宝丽雅</h1>
 	</ion-header-bar>
-  <ion-content class=" has-header">
+  <ion-content class=" has-header padding">
     <ion-list>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items">
-	    <img ng-src="{{item.img}}">
-	    <div class="row">
-		  <div class="col col-75"><h2>{{item.title}} </h2></div>
-		  <div class="col"><span class="item-time">{{item.lastTime}}</span></div>
-		</div>
-		<p>{{item.lastMessage}}</p>
-	  </ion-item>
+	  <!-- <ion-item class="item-avatar">
+		 <img ng-src="modules/subscribe/img/avatar.jpg">
+		 	<h2>Pretty Hate Machine</h2>
+			<p>Nine Inch Nails</p>
+		</ion-item> -->
+		<ion-item class="item-image">
+			<img ng-src="modules/subscribe/img/yhzxc.jpg">
+			<p style="position:absolute;bottom:0px;text-align:center;vertical-align:middle;background:rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;color:#fff;width:100%;height:40px;font-size:20px;padding-top:10px">央行行长周小川透露今年央行4大动作</p>
+		</ion-item>
+		
+		<ion-item class="item-thumbnail-left">
+        	<img ng-src="modules/subscribe/img/avatar.jpg">
+	        <h2>产品经理和包工头</h2>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+        	<img ng-src="modules/subscribe/img/cover.jpg">
+	        <h2>有关新媒体运营的十个感悟</h2>
+        </ion-item>
+        <ion-item class="item-thumbnail-left">
+        	<img ng-src="modules/subscribe/img/delorean.jpg">
+	        <h2>深圳第三期线下活动</h2>
+        </ion-item>
 	</ion-list>
   </ion-content>
 </ion-view>

@@ -7,8 +7,8 @@
 	</ion-header-bar>
   <ion-content class=" has-header">
     <ion-list>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items"  ng-href="{{item.href}}">
-	    <img ng-src="{{item.img}}">
+	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items"  ng-href="{{item.href}}" nav-transition="ios">
+	    <img ng-src="{{item.img}}"><span class="badge badge-assertive">1</span>
 	    <div class="row">
 		  <div class="col col-75"><h2>{{item.title}} </h2></div>
 		  <div class="col"><span class="item-time">{{item.lastTime}}</span></div>
