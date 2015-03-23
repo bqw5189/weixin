@@ -1,14 +1,13 @@
-<ion-view view-title="宝丽雅">
-
+<ion-view view-title="订阅号">
 	 <ion-header-bar align-title="left" class="bar-dark">
  	  <div class="buttons">
- 	    <a class="button icon-left ion-android-arrow-back button-clear" ng-href="#/subscribe/list"></a>
+ 	    <a class="button icon-left ion-android-arrow-back button-clear" ng-href="#/home/weixin"></a>
 	  </div>
-	  <h1 class="title title-left">宝丽雅</h1>
+	  <h1 class="title title-left">订阅号</h1>
 	</ion-header-bar>
   <ion-content class=" has-header">
     <ion-list>
-	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items">
+	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items"  ng-href="{{item.href}}">
 	    <img ng-src="{{item.img}}">
 	    <div class="row">
 		  <div class="col col-75"><h2>{{item.title}} </h2></div>
