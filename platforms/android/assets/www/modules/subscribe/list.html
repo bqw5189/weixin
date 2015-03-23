@@ -1,0 +1,20 @@
+<ion-view view-title="订阅号">
+	 <ion-header-bar align-title="left" class="bar-dark">
+ 	  <div class="buttons">
+ 	    <a class="button icon-left ion-android-arrow-back button-clear" ng-href="#/home/weixin"></a>
+	  </div>
+	  <h1 class="title title-left">订阅号</h1>
+	</ion-header-bar>
+  <ion-content class=" has-header">
+    <ion-list>
+	  <ion-item class="item-thumbnail-left"  ng-repeat="item in items"  ng-href="{{item.href}}" nav-transition="ios">
+	    <img ng-src="{{item.img}}"><span class="badge badge-assertive">1</span>
+	    <div class="row">
+		  <div class="col col-75"><h2>{{item.title}} </h2></div>
+		  <div class="col"><span class="item-time">{{item.lastTime}}</span></div>
+		</div>
+		<p>{{item.lastMessage}}</p>
+	  </ion-item>
+	</ion-list>
+  </ion-content>
+</ion-view>

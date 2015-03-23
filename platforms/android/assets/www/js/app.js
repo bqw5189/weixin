@@ -11,6 +11,7 @@ var weixin=angular.module('weixin', ['ionic', 'app.services',
                                      'address.controllers',
                                      'discover.controllers',
                                      'search.controllers',
+                                     'subscribe.controllers',
                                      'my.controllers']);
 
 weixin.run(function($ionicPlatform) {
