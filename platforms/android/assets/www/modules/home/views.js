@@ -7,4 +7,6 @@ weixin.config(function($stateProvider, $urlRouterProvider) {
     controller:'HomeCtrl'
   });
   
+  $urlRouterProvider.when('/home','/home/weixin');
+  
 });
